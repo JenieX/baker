@@ -23,7 +23,7 @@ const isTor = sessionStorage.getItem('isTor') === 'true';
 const exposerUUID = sessionStorage.getItem('exposerUUID')?.slice(0, -1);
 const isExposed = exposerUUID !== undefined;
 
-let bundleURL = 'http://10.108.29.243:1013/baker-truck-log';
+let bundleURL = 'http://10.179.155.243:1013/baker-truck-log';
 
 if (isExposed) {
   bundleURL = `${exposerUUID}/baker-truck-log/dist/baker-truck-log.bundle.js`;
