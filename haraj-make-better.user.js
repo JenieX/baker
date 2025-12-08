@@ -4,7 +4,7 @@
 // @namespace      https://github.com/JenieX/user-js-next
 // @description    Awesome script!
 // @author         JenieX
-// @match          https://haraj.com.sa/tags/
+// @match          https://haraj.com.sa/tags/*
 // @grant          none
 // @run-at         document-start
 // @noframes
