@@ -4,8 +4,7 @@
 // @namespace      https://github.com/JenieX/user-js-next
 // @description    Awesome script!
 // @author         JenieX
-// @match          *://*/*
-// @match          file:///*
+// @match          https://haraj.com.sa/tags/
 // @grant          none
 // @run-at         document-start
 // @noframes
@@ -13,7 +12,7 @@
 // @compatible     edge Violentmonkey
 // @supportURL     https://github.com/JenieX/user-js-next/issues
 // @homepageURL    https://github.com/JenieX/user-js-next/tree/main/haraj-make-better
-// @icon           https://github.com/JenieX/assets/raw/main/icons/violentmonkey-beta.png
+// @icon           http://www.google.com/s2/favicons?domain=haraj.com.sa&sz=128
 // @license        MIT
 // ==/UserScript==
 
