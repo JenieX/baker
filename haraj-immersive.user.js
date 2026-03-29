@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           jx-haraj-immersive-dev
-// @version        0.0.0
+// @version        0.0.1
 // @namespace      https://github.com/JenieX/user-js-work
 // @description    Awesome script!
 // @author         JenieX
@@ -21,7 +21,7 @@ const isTor = sessionStorage.getItem('isTor') === 'true';
 const exposerUUID = sessionStorage.getItem('exposerUUID')?.slice(0, -1);
 const isExposed = exposerUUID !== undefined;
 
-let bundleURL = 'http://172.16.136.197:1013/haraj-immersive';
+let bundleURL = 'http://10.248.172.197:1013/haraj-immersive';
 
 if (isExposed) {
   bundleURL = `${exposerUUID}/haraj-immersive/dist/haraj-immersive.bundle.js`;
