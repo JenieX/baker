@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           test
-// @version        0.0.0
+// @version        0.0.1
 // @namespace      https://github.com/JenieX/user-js-work
 // @description    Awesome script!
 // @author         JenieX
@@ -16,4 +16,4 @@
 // @license        MIT
 // ==/UserScript==
 
-alert('test');
+alert('tes2t');
